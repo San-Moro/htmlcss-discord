@@ -278,6 +278,7 @@ ul.footer-menu-item {
     color: #7289da;
     list-style-type: none;
     text-decoration: none;
+
 }
 
 .footer-menu-item a{
@@ -299,7 +300,6 @@ ul.footer-menu-item {
 .container-items-footer {
     width: 80%;
     height: 70px;
-    background-color: aquamarine;
     margin-top: 40px; 
     display: flex;
     align-items: center;
@@ -307,8 +307,11 @@ ul.footer-menu-item {
 }
 
 .logo-footer , .button-footer {
-    width: 70px;
+    width: 100px;
     height: 30px;
-    background-color: pink;
-    border: 1px dashed black;
+}
+
+.footer-btn {
+   color: white;
+   background-color: #7289da; 
 }
